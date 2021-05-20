@@ -1,0 +1,13 @@
+Description
+This powershell script with built-in GUI allows you to point to a text file list of computers and will then retrieve the following information for each computer in the list.
+
+Whether it is pingable
+Its IP address
+OS Version
+Service Pack Version
+Uptime
+Last boot time
+
+Run it by entering .\'Display Computers Status And info with GUI.ps1'
+Change c:\computers.txt to point to your text file containing the computers you are scanning one name per line.
+The refresh rate can be set by the user to any interval or you can force a rescan at any time by clicking the Get Status Button.
